@@ -1,6 +1,7 @@
 REM help - http://the.earth.li/~sgtatham/putty/0.53/htmldoc/Chapter3.html
 
-"C:\Program Files (x86)\PuTTY\putty.exe" -N -L 127.0.0.106:5900:192.168.4.24:5900 -l pi -pw raspberry 192.168.4.24
+REM start "C:\Program Files (x86)\PuTTY\putty.exe" -N -L 127.0.0.106:5900:192.168.4.24:5900 -l pi -pw raspberry 192.168.4.24
+start C:\Progra~2\PuTTY\putty.exe -N -L 127.0.0.106:5900:192.168.4.24:5900 -l pi -pw raspberry 192.168.4.24
 ping localhost -n 5
 "C:\Program Files\TightVNC\tvnviewer.exe" 127.0.0.106::5900
 
